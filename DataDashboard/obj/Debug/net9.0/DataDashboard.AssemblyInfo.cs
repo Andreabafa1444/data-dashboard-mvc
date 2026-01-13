@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataDashboard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c38a1c0e0a3e85ed728c031eaf50f159461b9b33")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataDashboard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataDashboard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
