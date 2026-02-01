@@ -9,6 +9,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite("Data Source=students.db"));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+//“Si alguien pide IHttpClientFactory, ya sé cómo crearlo.”
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())

@@ -1,0 +1,40 @@
+<form method="get" class="row g-3 mb-4">
+    <div class="col-md-3">
+        <label class="form-label">Country</label>
+        <select name="country" class="form-select">
+            <option value="">All</option>
+            @foreach (var c in ViewBag.Countries)
+            {
+                <option value="@c">@c</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-3">
+        <label class="form-label">Academic Level</label>
+        <select name="academicLevel" class="form-select">
+            <option value="">All</option>
+            @foreach (var a in ViewBag.AcademicLevels)
+            {
+                <option value="@a">@a</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-3">
+        <label class="form-label">Platform</label>
+        <select name="platform" class="form-select">
+            <option value="">All</option>
+            @foreach (var p in ViewBag.Platforms)
+            {
+                <option value="@p">@p</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-3 d-flex align-items-end">
+        <button type="submit" class="btn btn-primary w-100">
+            Apply Filters
+        </button>
+    </div>
+</form>
